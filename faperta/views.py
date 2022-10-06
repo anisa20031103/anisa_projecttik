@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def faperta(request):
+def indexfaperta(request):
     return render(request, 'faperta.html')

@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def pascasarjana(request):
+def indexpascasarjana(request):
     return render(request, 'pascasarjana.html')

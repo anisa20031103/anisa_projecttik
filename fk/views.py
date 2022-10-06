@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def fk(request):
+def indexfk(request):
     return render(request, 'fk.html')

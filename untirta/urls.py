@@ -1,30 +1,28 @@
 
 from django.contrib import admin
 from django.urls import path
-from FAPERTA.views import faperta
-from FEB.views import feb
-from FH.views import fh
-from FISIP.views import fisip
-from FK.views import fk
-from FKIP.views import fkip
-from FT.views import ft
-from PASCASARJANA.views import pascasarjana
-from PROFIL.views import profil
-from . import views
+from faperta.views import indexfaperta
+from feb.views import indexfeb
+from fh.views import indexfh
+from fisip.views import indexfisip
+from fk.views import indexfk
+from fkip.views import indexfkip
+from ft.views import indexft
+from pascasarjana.views import indexpascasarjana
+from profil.views import indexprofil
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('faperta/', faperta),
-    path('feb/', feb), 
-    path('fh/', fh),
-    path('fisip/', fisip),
-    path('fk/', fk),
-    path('fkip/', fkip),
-    path('ft/', ft),
-    path('pascasarjana/', pascasarjana),
-    path('profil/', profil),
-    path('', views.index),
+    path('faperta/', indexfaperta),
+    path('feb/', indexfeb), 
+    path('fh/', indexfh),
+    path('fisip/', indexfisip),
+    path('fk/', indexfk),
+    path('fkip/', indexfkip),
+    path('ft/', indexft),
+    path('pascasarjana/', indexpascasarjana),
+    path('profil/', indexprofil),
 ]
 
 

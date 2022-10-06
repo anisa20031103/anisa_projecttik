@@ -1,0 +1,41 @@
+
+    body {
+         margin:0; 
+         padding:0;
+         background-color: antiquewhite;
+     }
+ 
+    nav {
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    } 
+    
+    nav ul {
+        background:orange;
+        padding: 0 20px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        width: 100%;
+     }
+
+    nav ul li{
+        float:right;
+    }
+
+    nav ul li:hover{
+        background:#FF7F50;
+    }
+
+    nav ul li:hover a{
+     	color:#000;
+    }
+
+    nav ul li a{
+     	display: block;
+     	padding: 25px;
+     	color: #fff;
+     	text-decoration: none;
+    }

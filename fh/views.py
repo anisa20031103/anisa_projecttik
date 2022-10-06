@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def fh(request):
+def indexfh(request):
     return render(request, 'fh.html')

@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def fisip(request):
+def indexfisip(request):
     return render(request, 'fisip.html')
